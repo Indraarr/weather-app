@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 475px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  margin: 10vh auto 0;
+  padding: 1.5em;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* SEARCH */
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  flex: 1;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  margin-right: 10px;
+  border-radius: 2rem;
+  color: #525252;
+}
+
+.search button {
+  width: 3rem;
+  height: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  outline: 0;
+  border: 0;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 1rem;
+}
+
+.search button:hover {
+  background-color: #baffea;
+}
+
+/* WEATHER */
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 2.5em;
+}
+
+.icon-weather {
+  width: 40%;
+}
+
+.temp {
+  font-size: 4.5em;
+  font-weight: 500;
+  margin-top: 0.25em;
+}
+
+.city {
+  margin-top: -0.25em;
+  font-size: 2.5em;
+}
+
+/* DETAILS */
+
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  margin: 3em 0 1em;
+  color: white;
+}
+
+.details img {
+  width: 2rem;
+}
+
+.humidity,
+.wind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1em;
+}
+
+.one {
+  font-size: 1.5em;
+}
+
+.two {
+  font-size: 1em;
+}
