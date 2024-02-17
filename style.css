@@ -107,15 +107,14 @@ body {
 }
 
 .details img {
-  width: 2rem;
+  width: 2.5rem;
 }
 
-.humidity,
-.wind {
+.detail {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5em;
+  gap: 1em;
   font-size: 1em;
 }
 
@@ -125,4 +124,18 @@ body {
 
 .two {
   font-size: 1em;
+}
+
+.weather,
+.details {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  font-size: 14px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: none;
 }
